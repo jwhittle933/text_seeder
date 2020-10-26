@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+autoflake = "*"
+flake8 = "*"
+epc = "*"
+importmagic = "*"
+python-language-server = {extras = ["all"],version = "*"}
+ptvsd = ">=4.2"
+requests = "*"
+realpython-reader = "*"
+
+[requires]
+python_version = "3.7"
